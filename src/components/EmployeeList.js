@@ -28,7 +28,7 @@ class EmployeeList extends Component {
   };
 
   renderItem({ item }) {
-    return <ListItem data={item} />;
+    return <ListItem employee={item} />;
   }
 
   render() {
